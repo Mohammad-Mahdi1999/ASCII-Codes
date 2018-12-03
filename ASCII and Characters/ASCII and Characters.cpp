@@ -1,11 +1,22 @@
-// ASCII and Characters.cpp : Defines the entry point for the console application.
+
+
+// In the name of God !
 //
-
+//
 #include "stdafx.h"
+#include <iostream>
+using namespace std;
 
-
-int main()
+void main()
 {
-    return 0;
+	int i;
+	char c;
+	for (i = 0; i <256; i++)
+	{
+		c = i;
+		cout << i << " :" << c << endl;
+	}
+cin.get();
+cin.ignore();
 }
-
+//Created by /%++;; Mohammad-Mahdi Farah-bakhsh ;;++%\
